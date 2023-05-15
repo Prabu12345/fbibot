@@ -8,13 +8,13 @@ Settings:
   Lavalink:
     Node:
       # You will have to create a lava link server and use your server's credentials.
-      host: lavalink
-      port: 433
-      password: password
+      host: lavalink2.devamop.in
+      port: 8830
+      password: DevamOP
   Spotify:
-    Enabled: false
-    ClientID: PUT-CLIENT-ID-HERE
-    ClientSecret: PUT-CLIENT-SECRET-HERE
+    Enabled: true
+    ClientID: 540def33c9bb4c94b7d3b5bb51615624
+    ClientSecret: 89c15cd0add944c6bef3be863b964d9f
     # Create a Spotify application @ https://developer.spotify.com/dashboard to get the ID and secret
   StopDelay:
     Enabled: true

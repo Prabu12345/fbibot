@@ -87,7 +87,7 @@ Enabled:
   movevc: true
   msg: true
   math: true
-  modules: true
+  Staffules: true
   minecraftuser: true
   mute: true
   mutelist: true
@@ -137,7 +137,7 @@ Enabled:
   setup: true
   server: true
   status: true
-  slowmode: true
+  slowStaffe: true
   serverinfo: true
   staffhelp: true
   stop: true
@@ -181,63 +181,63 @@ Permissions:
   8ball:
     - "@everyone"
   accept:
-    - "Admin"
+    - "Vice Guildmaster"
   addinvites:
-    - "Admin"
+    - "Vice Guildmaster"
   announce:
-    - "Admin"
+    - "Vice Guildmaster"
   autoannounce:
-    - "Admin"
+    - "Vice Guildmaster"
   achievement:
     - "@everyone"
   addon:
-    - "Owner"
+    - "Guildmaster"
   avatar:
     - "@everyone"
   add:
     - "@everyone"
   application:
-    - "Admin"
+    - "Vice Guildmaster"
   apply:
     - "@everyone"
   buy:
     - "@everyone"
   bnote:
-    - "Admin"
+    - "Vice Guildmaster"
   backup:
-    - "Owner"
+    - "Guildmaster"
   botinfo:
-    - "Owner"
+    - "Guildmaster"
   bugreport:
     - "@everyone"
   ban:
-    - "Admin"
+    - "Vice Guildmaster"
   bans:
-    - "Mod"
+    - "Staff"
   blacklist:
-    - "Mod"
+    - "Staff"
   boosters:
     - "@everyone"
   code:
-    - "Owner"
+    - "Guildmaster"
   coins:
     - "@everyone"
   cointop:
     - "@everyone"
   closeall:
-    - "Admin"
+    - "Vice Guildmaster"
   createrole:
-    - "Admin"
+    - "Vice Guildmaster"
   coinflip:
     - "@everyone"
   connect4:
     - "@everyone"
   command:
-    - "Owner"
+    - "Guildmaster"
   commandchannels:
-    - "Owner"
+    - "Guildmaster"
   clear:
-    - "Mod"
+    - "Staff"
   channelinfo:
     - "@everyone"
   close:
@@ -245,52 +245,51 @@ Permissions:
   daily:
     - "@everyone"
   deleterole:
-    - "Admin"
+    - "Vice Guildmaster"
   deny:
-    - "Admin"
+    - "Vice Guildmaster"
   edit:
-    - "Admin"
+    - "Vice Guildmaster"
   embed:
-    - "Owner"
+    - "Guildmaster"
   eval:
-    - "273679641087180802"
-    - "172131900289187849"
+    - "262095065088786432"
   filter:
-    - "Admin"
+    - "Vice Guildmaster"
   fix:
-    - "Admin"
+    - "Vice Guildmaster"
   givecoins:
-    - "Admin"
+    - "Vice Guildmaster"
   givelevels:
-    - "Admin"
+    - "Vice Guildmaster"
   giverole:
-    - "Admin"
+    - "Vice Guildmaster"
   givexp:
-    - "Admin"
+    - "Vice Guildmaster"
   gamestats:
     - "@everyone"
   gametop:
     - "@everyone"
   gcreate:
-    - "Admin"
+    - "Vice Guildmaster"
   gdelete:
-    - "Admin"
+    - "Vice Guildmaster"
   gedit:
-    - "Admin"
+    - "Vice Guildmaster"
   giveaway:
-    - "Admin"
+    - "Vice Guildmaster"
   greroll:
-    - "Admin"
+    - "Vice Guildmaster"
   gschedule:
-    - "Admin"
+    - "Vice Guildmaster"
   gstop:
-    - "Admin"
+    - "Vice Guildmaster"
   google:
     - "@everyone"
   help:
     - "@everyone"
   history:
-    - "Mod"
+    - "Staff"
   ip:
     - "@everyone"
   invite:
@@ -302,9 +301,9 @@ Permissions:
   join:
     - "@everyone"
   key:
-    - "Owner"
+    - "Guildmaster"
   kick:
-    - "Mod"
+    - "Staff"
   level:
     - "@everyone"
   leveltop:
@@ -312,35 +311,35 @@ Permissions:
   links:
     - "@everyone"
   lock:
-    - "Mod"
+    - "Staff"
   lockserver:
-    - "Mod"
+    - "Staff"
   movevc:
-    - "Admin"
+    - "Vice Guildmaster"
   msg:
-    - "Admin"
+    - "Vice Guildmaster"
   math:
     - "@everyone"
-  modules:
-    - "Owner"
+  Staffules:
+    - "Guildmaster"
   minecraftuser:
     - "@everyone"
   mute:
-    - "Mod"
+    - "Staff"
   mutelist:
-    - "Mod"
+    - "Staff"
   msgtop:
     - "@everyone"
   musicemojis:
-    - "Admin"
+    - "Vice Guildmaster"
   nuke:
-    - "Admin"
+    - "Vice Guildmaster"
   new:
     - "@everyone"
   pay:
     - "@everyone"
   paste:
-    - "Admin"
+    - "Vice Guildmaster"
   ping:
     - "@everyone"
   prefix:
@@ -354,13 +353,13 @@ Permissions:
   queue:
     - "@everyone"
   react:
-    - "Admin"
+    - "Vice Guildmaster"
   reactfor:
-    - "Admin"
+    - "Vice Guildmaster"
   removeinvites:
-    - "Admin"
+    - "Vice Guildmaster"
   rolemenu:
-    - "Admin"
+    - "Vice Guildmaster"
   rockpaperscissors:
     - "@everyone"
   rolldice:
@@ -372,13 +371,13 @@ Permissions:
   report:
     - "@everyone"
   reset:
-    - "Owner"
+    - "Guildmaster"
   removewarn:
-    - "Mod"
+    - "Staff"
   roleinfo:
     - "@everyone"
   reload:
-    - "Owner"
+    - "Guildmaster"
   remove:
     - "@everyone"
   rename:
@@ -390,39 +389,39 @@ Permissions:
   slots:
     - "@everyone"
   saccept:
-    - "Admin"
+    - "Vice Guildmaster"
   say:
-    - "Admin"
+    - "Vice Guildmaster"
   sdeny:
-    - "Admin"
+    - "Vice Guildmaster"
   simplement:
-    - "Admin"
+    - "Vice Guildmaster"
   snote:
-    - "Admin"
+    - "Vice Guildmaster"
   sudo:
-    - "Admin"
+    - "Vice Guildmaster"
   suggest:
     - "@everyone"
   setactivity:
-    - "Owner"
+    - "Guildmaster"
   setcoins:
-    - "Owner"
+    - "Guildmaster"
   setexp:
-    - "Owner"
+    - "Guildmaster"
   setlevel:
-    - "Owner"
+    - "Guildmaster"
   setprefix:
-    - "Owner"
+    - "Guildmaster"
   setstatus:
-    - "Owner"
+    - "Guildmaster"
   setup:
-    - "Owner"
+    - "Guildmaster"
   server:
     - "@everyone"
   status:
     - "@everyone"
-  slowmode:
-    - "Mod"
+  slowStaffe:
+    - "Staff"
   serverinfo:
     - "@everyone"
   staffhelp:
@@ -432,47 +431,47 @@ Permissions:
   skip:
     - "@everyone"
   takecoins:
-    - "Admin"
+    - "Vice Guildmaster"
   takelevels:
-    - "Admin"
+    - "Vice Guildmaster"
   takerole:
-    - "Admin"
+    - "Vice Guildmaster"
   takexp:
-    - "Admin"
+    - "Vice Guildmaster"
   topic:
-    - "Admin"
+    - "Vice Guildmaster"
   tictactoe:
     - "@everyone"
   tempchannel:
     - "@everyone"
   tempban:
-    - "Admin"
+    - "Vice Guildmaster"
   tempmute:
-    - "Mod"
+    - "Staff"
   tickets:
     - "@everyone"
   update:
-    - "Admin"
+    - "Vice Guildmaster"
   updaterolemenus:
-    - "Owner"
+    - "Guildmaster"
   unban:
-    - "Admin"
+    - "Vice Guildmaster"
   unblacklist:
-    - "Mod"
+    - "Staff"
   unlock:
-    - "Mod"
+    - "Staff"
   unlockserver:
-    - "Mod"
+    - "Staff"
   unmute:
-    - "Mod"
+    - "Staff"
   userinfo:
     - "@everyone"
   vote:
-    - "Admin"
+    - "Vice Guildmaster"
   verify:
     - "@everyone"
   verification:
-    - "Owner"
+    - "Vice Guildmaster"
   vctop:
     - "@everyone"
   weekly:
@@ -480,9 +479,9 @@ Permissions:
   work:
     - "@everyone"
   warn:
-    - "Helper"
+    - "Staff"
   warnings:
-    - "Helper"
+    - "Staff"
 
 ######################################
 #                                    #
@@ -596,8 +595,8 @@ Aliases:
     - "lockdownserver"
   msg:
     - "message"
-  modules:
-    - "module"
+  Staffules:
+    - "Staffule"
   minecraftuser:
     - "mcuser"
     - "mcaccount"
@@ -799,7 +798,7 @@ Descriptions:
   movevc: "Move all members from a/your current voice channel to another one"
   msg: "Message all or certain users"
   math: "Evaluate a math equation"
-  modules: "Enable or disable a module"
+  Staffules: "Enable or disable a Staffule"
   minecraftuser: "View minecraft account information"
   mute: "Mute a user in the Discord server"
   mutelist: "View a list of currently muted users"
@@ -849,7 +848,7 @@ Descriptions:
   setup: "Create any missing channels and roles for the server"
   server: "View minecraft server information"
   status: "View a Minecraft server's status"
-  slowmode: "Turn on or off slowmode"
+  slowStaffe: "Turn on or off slowStaffe"
   serverinfo: "View server information"
   staffhelp: "View the staff command help menu"
   stop: "Stop playing music"

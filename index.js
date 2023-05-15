@@ -1,3 +1,10 @@
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.write("I'm alive");
+  res.end();
+}).listen(8080);
+
 /* eslint-disable no-undef */
 if (process.platform !== "win32") require("child_process").exec("npm install n && n lts");
 if (+process.version.slice(1).split('.')[0] < 16) {
@@ -174,7 +181,7 @@ installModules().then(async () => {
 
   Utils.yml('./configs/config.yml')
     .then(config => {
-      bot.login(config.Token).catch(error => {
+      bot.login(process.env.btoken).catch(error => {
         if (error.message.includes("An invalid token was provided")) {
           console.log(Utils.errorPrefix + "Your bot token is incorrect! Shutting down...");
         } else {

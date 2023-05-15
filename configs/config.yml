@@ -4,7 +4,7 @@
 #                                      #
 ########################################
 
-Token: "BOT-TOKEN"
+Token: "process.env.bot-token"
 Key: "DirectLeaks"
 Prefix: "-"
 
@@ -43,7 +43,7 @@ Storage:
 
 Join:
     Roles:
-        - "Member"
+        #- ""
 
     Messages:
         Enabled: true
@@ -52,7 +52,7 @@ Join:
             Enabled: false
 
     InviteRewards:
-        Enabled: true
+        Enabled: false
         Roles:
             1: "Inviter"
             5: "Inviter+"
@@ -77,9 +77,6 @@ Leave:
         Roles:
             Enabled: true
             BlacklistedRoles:
-                - "Owner"
-                - "Admin"
-                - "Helper"
                 - "Staff"
 
 ########################################
@@ -91,9 +88,9 @@ Leave:
 Coins:
     Amounts:
         PerMessage: 10
-        Daily: 1000
+        Daily: 100
         MaxGamble: 1000000
-        Weekly: 2500
+        Weekly: 250
 
     Work:
         Cooldown: 12
@@ -338,9 +335,9 @@ AntiAdvertisement:
 ########################################
 
 Verification:
-    Enabled: false
+    Enabled: true
     VerifiedRoles:
-        - "Verified"
+        - "Member"
     Type: "button"
     # "reaction", "code", or "button"
     WelcomeMessage: "after-verified"
@@ -426,7 +423,7 @@ Suggestions:
     Enabled: true
     ReactToOwnSuggestion: false
     ManageSuggestionsRole: 
-        - "Owner"
+        - "Guildmaster"
     Type: "send-command"
     # Types: "send-command", "send-message", "both"
     AddManagementReactions: false
@@ -486,7 +483,7 @@ Suggestions:
 BugReports:
     Enabled: true
     ManageBugReportsRole: 
-        - "Owner"
+        - "Staff"
     Type: "send-command"
     # Types: "send-command", "send-message", "both"
     AddManagementReactions: true
@@ -542,8 +539,8 @@ BugReports:
 
 Applications:
     Reviewers: 
-        - "Owner"
-        - "Admin"
+        - "Guildmaster"
+        - "Vice Guildmaster"
     MentionReviewerRole: false
     AddRoleWhenAccepted: true
     DeleteEmbedsAndSendAnswers: true
@@ -650,7 +647,7 @@ AutoAnnouncements:
 ########################################
 
 ActivityCycling:
-    Enabled: false
+    Enabled: true
     Activities:
         - ["watching", "Tickets: {tickets}"]
         - ["playing", "Total Users: {users}"]
@@ -775,10 +772,8 @@ Servers:
 
 LockUnlock:
     Whitelisted:
-        - "Owner"
-        - "Admin"
-        - "Mod"
-        - "Helper"
+        - "Guildmaster"
+        - "Vice Guildmaster"
         - "Staff"
     Ignore:
         - "Muted"
@@ -925,7 +920,7 @@ Channels:
     Reports: "reports"
     DefaultVote: "polls"
     DefaultUpdates: "updates"
-    DefaultAnnouncements: "announcements"
+    DefaultAnnouncements: "announcement"
     ImageLogs: "logs"
     TranscriptFileLogs: "logs"
 
@@ -1118,9 +1113,7 @@ Cards:
 ########################################
 
 RolePrefixes:
-    "Admin": "Admin | {user-username}"
-    "Mod": "Mod | {user-username}"
-    "Helper": "Helper | {user-username}"
+    "Vice Grandmaster": "VG | {user-username}"
 
 ########################################
 #                                      #
@@ -1134,7 +1127,7 @@ Other:
     PasteSite: "https://paste.corebot.dev"
     FilterBypassRole: "Staff"
     DataBackups: true
-    RemindmeAdmin: "Admin"
+    RemindmeAdmin: "Vice Guildmaster"
     Giveaways:
         DiscordEmoji: ":tada:"
         UnicodeEmoji: "🎉"
